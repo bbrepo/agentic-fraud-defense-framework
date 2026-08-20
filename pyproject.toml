@@ -1,0 +1,9 @@
+[project]
+name = "agentic-fraud-defense-framework"
+version = "0.1.0"
+description = "Research prototype implementing a five-layer agentic AI framework for real-time payment fraud defense."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
